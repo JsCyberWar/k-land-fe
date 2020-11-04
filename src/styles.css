@@ -1,0 +1,229 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 1.7em;
+  color:black;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+a {
+  transition: all 0.3s ease;
+  color: orange;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #D40;
+}
+
+a:focus {
+  outline: none;
+}
+
+p {
+    line-height: 1.9;
+  }
+
+h2 {
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+}
+
+
+  
+.btn {
+  padding: 8px 32px;
+}
+
+.btn:hover {
+  background-color: #ced4da;
+}
+
+blockquote {
+  font-size: 0.86em;
+  line-height: 1.8em;
+}
+
+.tm-section-pad-top {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  
+  .tm-content-box {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .tm-text-primary {
+    color: orange;
+  }
+  
+  .tm-font-big {
+    font-size: 1.25rem;
+  }
+  
+  .tm-btn-primary {
+    color: white;
+    background-color:orange;
+    padding: 14px 30px;
+  }
+  
+  .tm-btn-primary:hover,
+  .tm-btn-primary:focus {
+    color: white;
+    background-color: orange;
+  }
+
+  @media (max-width: 767px) {
+  
+    .navbar-nav {
+      max-width: 200px;
+      text-align: right;
+    }
+  
+    .navbar-collapse {
+      background-color: rgb(255, 255, 255);
+      padding: 10px;
+      border-radius: 3px;
+    }
+  
+    .navbar-collapse .nav-link {
+      color: #707070;
+      padding-right: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tm-gallery-container {
+      max-width: 220px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .tm-gallery-container-2 {
+      max-width: 350px;
+    }
+  
+    .slick-dots li {
+      margin: 0 8px;
+    }
+  
+    .tm-gallery-item {
+      margin: 0;
+    }
+  }
+
+  .item-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-link i,
+  .item-link span {
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .item-link:hover i,
+  .item-link:hover span {
+    color: orange;
+  }
+  
+  .tm-input {
+      margin: 0 0 20px 0;
+      width: 90%;
+    padding: 8px 20px;
+    border-radius: 6px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+  }
+  
+  .tm-btn-submit {
+      font-size: 0.9em;
+      color: #fff;
+      background-color: orange;
+      width: 50%;
+      margin-bottom: 60px;
+  }
+  
+  .tm-btn-submit:hover {
+      color: #fff;
+      background-color: orange;
+  }
+  
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .tm-intro-text-container {
+      padding-left: 0px;
+    }
+  
+    .navbar-expand-md .navbar-nav .nav-link {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1275px;
+    }
+  
+    .tm-container-gallery {
+      max-width: 1290px;
+    }
+  
+    .tm-container-contact {
+      max-width: 1063px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .tm-intro-text-container {
+      padding-left: 15px;
+      padding-top: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .tm-intro-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .tm-btn-submit {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+
+
+

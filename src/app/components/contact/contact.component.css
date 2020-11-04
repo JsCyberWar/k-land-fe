@@ -1,0 +1,32 @@
+#contact {
+    color: white;
+    background-color: #001828;
+    background-image: url(./infinite-loop-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 850px;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 100px;
+  }
+  
+  .contact-item {
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  
+  fa-icon {
+    margin: 10px;
+  }
+
+  .social-link {
+    margin-left: 10px;
+  }
+  
+  .social-link > a{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 20px;
+  }
+ 
